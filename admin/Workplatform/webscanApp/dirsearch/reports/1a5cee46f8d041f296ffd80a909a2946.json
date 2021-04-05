@@ -1,0 +1,658 @@
+{
+    "http://www.xbiquge.la:80/": [
+        {
+            "content-length": 564,
+            "path": "..;/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".admin/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".aspnet/DataProtection-Keys/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".ansible/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".aws/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".cfg/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".circleci/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".clcbio/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".components/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".conda/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".config/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".configuration/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".cpan/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".cpanel/caches/config/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".controls/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".cpanm/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".cpcache/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".data/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".dbus/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".docker/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".docs/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".dropbox/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".dynamodb/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".eggs/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".elixir_ls/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".emails/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".ensime_cache/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".ensime_lucene/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".externaltoolbuilders/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".fake/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".filezilla/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".fop/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".fusebox/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".git-rewrite/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".git/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".git/branches/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".git/hooks/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".git/info/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".git/logs/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".git/objects/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".git/refs/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".git2/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".github/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".gitignore/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".gnome/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".gnupg/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".gphoto/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".gradle/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".gwt-tmp/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".gwt/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".hg/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".hg/store/data/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".hypothesis/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".idea/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".idea0/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".import/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".ionide/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".interproscan-5/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".java/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".jekyll-cache/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".kdev4/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".kitchen/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".lein-plugins/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".lgt_tmp/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".lib/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".local/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".localhistory/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".libs/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".m/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".masterpages/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".meteor/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".mono/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".mfractor/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".mozilla/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".mtj.tmp/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".navigation/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".nb-gradle/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".mypy_cache/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".nox/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".nuget/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".nv/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".oh-my-zsh/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".oracle_jre_usage/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".otto/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".pac/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".paket/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".parallel/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".perlbrew/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".pki/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".preview/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".puppet/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".pyre/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".pytest_cache/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".recommenders/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".rpt2_cache/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".rts2_cache_cjs/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".rts2_cache_umd/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".rts2_cache_es/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".rpmdb/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".serverless/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".stat/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".stack-work/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".templates/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".terraform/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".tools/phpMyAdmin/current/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".tox/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 564,
+            "path": ".trash/",
+            "redirect": null,
+            "status": 403
+        },
+        {
+            "content-length": 35921,
+            "path": "book",
+            "redirect": null,
+            "status": 200
+        },
+        {
+            "content-length": 178,
+            "path": "css",
+            "redirect": "http://www.xbiquge.la/css/",
+            "status": 301
+        }
+    ]
+}
