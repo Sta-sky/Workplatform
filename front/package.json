@@ -1,0 +1,51 @@
+{
+  "name": "aptsystem",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint eslint --fix --ext .js,.vue src",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.8.0",
+    "d3": "^4.9.1",
+    "d3-tip": "^0.9.1",
+    "echarts": "^4.9.0",
+    "echarts-gl": "^1.1.1",
+    "element-ui": "^2.14.1",
+    "js-cookie": "^2.2.1",
+    "jsencrypt": "^3.0.0-rc.1",
+    "nprogress": "^0.2.0",
+    "tinymce": "^5.6.2",
+    "vue": "^2.6.12",
+    "vue-count-to": "^1.0.13",
+    "vue-i18n": "^8.22.2",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.4.9",
+    "vue-seamless-scroll": "^1.1.21",
+    "vuex": "^3.6.0"
+  },
+  "devDependencies": {
+    "@chenyanggis/mindmap": "^1.0.6",
+    "@vue/cli-plugin-babel": "^4.5.9",
+    "@vue/cli-plugin-eslint": "^4.5.9",
+    "@vue/cli-plugin-unit-jest": "^4.5.9",
+    "@vue/cli-service": "^4.5.9",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^5.0.0",
+    "less-loader": "^7.1.0",
+    "mavon-editor": "^2.9.0",
+    "node-sass": "^4.14.1",
+    "prettier": "^1.18.2",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.12"
+  }
+}

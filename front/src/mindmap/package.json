@@ -1,0 +1,173 @@
+{
+  "_args": [
+    [
+      "@hellowuxin/mindmap@2.1.4",
+      "I:\\projects\\cy\\LaneGeanPlat\\front"
+    ]
+  ],
+  "_from": "@hellowuxin/mindmap@2.1.4",
+  "_id": "@hellowuxin/mindmap@2.1.4",
+  "_inBundle": false,
+  "_integrity": "sha1-8kMsrm3GJ5NtD21xCl7AK6vn1PE=",
+  "_location": "/@hellowuxin/mindmap",
+  "_phantomChildren": {
+    "d3-color": "1.0.3",
+    "d3-dispatch": "1.0.3",
+    "d3-format": "1.2.2",
+    "d3-path": "1.0.5",
+    "d3-time": "1.0.8",
+    "d3-time-format": "2.1.1",
+    "d3-timer": "1.0.7"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@hellowuxin/mindmap@2.1.4",
+    "name": "@hellowuxin/mindmap",
+    "escapedName": "@hellowuxin%2fmindmap",
+    "scope": "@hellowuxin",
+    "rawSpec": "2.1.4",
+    "saveSpec": null,
+    "fetchSpec": "2.1.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/@hellowuxin/mindmap/download/@hellowuxin/mindmap-2.1.4.tgz",
+  "_spec": "2.1.4",
+  "_where": "I:\\projects\\cy\\LaneGeanPlat\\front",
+  "author": {
+    "name": "伍鑫"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "bugs": {
+    "url": "https://github.com/hellowuxin/mindmap/issues"
+  },
+  "dependencies": {
+    "d3-drag": "^1.2.5",
+    "d3-ease": "^1.0.6",
+    "d3-flextree": "^2.1.1",
+    "d3-scale": "^3.2.1",
+    "d3-scale-chromatic": "^1.5.0",
+    "d3-selection": "^1.4.2",
+    "d3-shape": "^1.3.7",
+    "d3-transition": "^1.3.2",
+    "d3-zoom": "^1.8.3"
+  },
+  "description": "Mindmap Vue Component",
+  "devDependencies": {
+    "@mdi/font": "^5.3.45",
+    "@types/d3-drag": "^1.2.3",
+    "@types/d3-ease": "^1.0.9",
+    "@types/d3-interpolate": "^1.3.1",
+    "@types/d3-scale": "^2.2.0",
+    "@types/d3-scale-chromatic": "^1.5.0",
+    "@types/d3-shape": "^1.3.2",
+    "@types/d3-transition": "^1.1.6",
+    "@types/resize-observer-browser": "^0.1.3",
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
+    "@vue/cli-plugin-babel": "^4.4.6",
+    "@vue/cli-plugin-eslint": "^4.4.6",
+    "@vue/cli-plugin-typescript": "^4.4.6",
+    "@vue/cli-service": "^4.4.6",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "@vue/test-utils": "^1.0.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.1.0",
+    "eslint": "^7.6.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "jest": "^26.1.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "typescript": "~3.9.7",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.5",
+    "vue-cli-plugin-vuetify": "^2.0.7",
+    "vue-jest": "^3.0.6",
+    "vue-property-decorator": "^9.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify": "^2.3.6",
+    "vuetify-loader": "^1.6.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/typescript"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "@typescript-eslint/parser"
+    },
+    "overrides": [
+      {
+        "files": [
+          "**/__tests__/*.{j,t}s?(x)",
+          "**/tests/unit/**/*.spec.{j,t}s?(x)"
+        ],
+        "env": {
+          "mocha": true
+        }
+      }
+    ]
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/hellowuxin/mindmap#readme",
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js,vue}",
+      "!**/node_modules/**"
+    ],
+    "coverageReporters": [
+      "html",
+      "text-summary"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      ".*\\.(vue)$": "vue-jest",
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
+    }
+  },
+  "keywords": [
+    "mindmap",
+    "vue",
+    "d3"
+  ],
+  "license": "ISC",
+  "main": "./dist/mindmap.umd.min.js",
+  "name": "@hellowuxin/mindmap",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellowuxin/mindmap.git"
+  },
+  "scripts": {
+    "build": "vue-cli-service build",
+    "build-lib": "vue-cli-service build --target lib --name mindmap ./src/components/MindMap.vue",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve",
+    "test": "jest",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "version": "2.1.4"
+}

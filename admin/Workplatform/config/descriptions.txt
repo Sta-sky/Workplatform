@@ -1,0 +1,50 @@
+用户管理模块：
+    普通用户标识：     0
+    管理员用户标识：   1
+
+
+笔记模块:
+    笔记权限：
+        仅自己可见：           0
+        任务内部成员可见：      1
+        公开：                 2
+
+
+日志模块：
+    动作（action）
+        无变化：   0
+        新增 ：    1
+        修改 ：    2
+        删除 ：    3
+
+
+
+
+
+            font_path = os.path.abspath('') + '/config/文泉驿正黑.ttf'
+            pdfmetrics.registerFont(TTFont("song", font_path))
+            #
+            response = HttpResponse(content_type='application/pdf')
+            response['Content-Disposition'] = 'filename={}.pdf'.format(quote(note_obj.note_name))
+            p = canvas.Canvas(response)
+
+            # 默认(0, 0)点在左下角，此处把原点(0,0)向上和向右移动，后面的尺寸都是相对与此原点设置的
+            # 注意：移动原点时，向右向上为正，坐标系也是向右为+x，向上为+y
+            p.translate(0.5 * inch, 10 * inch)
+            p.setFont('song', 12)
+            # 设置字体
+            styleSheet = getSampleStyleSheet()
+            style = styleSheet['BodyText']
+            style.fontName = 'song'
+            style.fontSize = 12
+            # 设置行距
+            style.leading = 25
+            # 首行缩进
+            style.firstLineIndent = 32
+            p.drawString(0, 0, note_obj.content, charSpace=5)
+                # Pa = Paragraph(note_obj.note_name + note_obj.content, style)
+            # Pa.wrapOn(p, 7 * inch, 10 * inch)
+            # Pa.drawOn(p, 0, 0 * inch)
+            p.showPage()
+            p.save()
+            return response

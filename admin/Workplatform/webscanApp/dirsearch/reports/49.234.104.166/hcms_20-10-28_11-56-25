@@ -1,0 +1,29 @@
+403   279B   http://49.234.104.166:80/xhcms/.htaccess.bak1
+403   279B   http://49.234.104.166:80/xhcms/.htaccess.orig
+403   279B   http://49.234.104.166:80/xhcms/.htaccess.sample
+403   279B   http://49.234.104.166:80/xhcms/.htaccess.save
+403   279B   http://49.234.104.166:80/xhcms/.htaccessBAK
+403   279B   http://49.234.104.166:80/xhcms/.htaccessOLD
+403   279B   http://49.234.104.166:80/xhcms/.htaccessOLD2
+403   279B   http://49.234.104.166:80/xhcms/.httr-oauth
+403   279B   http://49.234.104.166:80/xhcms/.php
+301   322B   http://49.234.104.166:80/xhcms/admin    -> REDIRECTS TO: http://49.234.104.166/xhcms/admin/
+302     0B   http://49.234.104.166:80/xhcms/admin/    -> REDIRECTS TO: ?r=login
+302     0B   http://49.234.104.166:80/xhcms/admin/?/login    -> REDIRECTS TO: ?r=login
+403   279B   http://49.234.104.166:80/xhcms/admin/.htaccess
+302     0B   http://49.234.104.166:80/xhcms/admin/index.php    -> REDIRECTS TO: ?r=login
+301   320B   http://49.234.104.166:80/xhcms/css    -> REDIRECTS TO: http://49.234.104.166/xhcms/css/
+301   322B   http://49.234.104.166:80/xhcms/files    -> REDIRECTS TO: http://49.234.104.166/xhcms/files/
+500     0B   http://49.234.104.166:80/xhcms/files/
+301   323B   http://49.234.104.166:80/xhcms/images    -> REDIRECTS TO: http://49.234.104.166/xhcms/images/
+301   320B   http://49.234.104.166:80/xhcms/inc    -> REDIRECTS TO: http://49.234.104.166/xhcms/inc/
+200     3KB  http://49.234.104.166:80/xhcms/inc/
+500     0B   http://49.234.104.166:80/xhcms/index.php
+500     0B   http://49.234.104.166:80/xhcms/index.php/login/
+301   324B   http://49.234.104.166:80/xhcms/install    -> REDIRECTS TO: http://49.234.104.166/xhcms/install/
+200   115B   http://49.234.104.166:80/xhcms/install/
+200    85KB  http://49.234.104.166:80/xhcms/shell.php
+301   325B   http://49.234.104.166:80/xhcms/template    -> REDIRECTS TO: http://49.234.104.166/xhcms/template/
+200     1KB  http://49.234.104.166:80/xhcms/template/
+301   323B   http://49.234.104.166:80/xhcms/upload    -> REDIRECTS TO: http://49.234.104.166/xhcms/upload/
+200     2KB  http://49.234.104.166:80/xhcms/upload/
