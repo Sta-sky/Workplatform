@@ -840,7 +840,7 @@ export default {
       formdata.append("images", $file);
       uploadImg(formdata).then(res => {
         if (res.data.success) {
-          let json = "http://192.168.8.243:10000" + res.data.img_addr; //取出上传成功后的url
+          let json = "http://192.168.1.102:10000" + res.data.img_addr; //取出上传成功后的url
           if (this.editNote) {
             this.$refs.md.$imglst2Url([[pos, json]]);
           } else {

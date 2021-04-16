@@ -2797,7 +2797,7 @@ export default {
     downloadSinFile(row) {
       const a = document.createElement("a");
       a.href =
-        "http://192.168.8.243:10000/api/file/v1/download_file?file_id=" +
+        "http://192.168.1.102:10000/api/file/v1/download_file?file_id=" +
         row.file_id;
       // +
       // "&token=" +

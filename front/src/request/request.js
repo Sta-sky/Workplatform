@@ -21,7 +21,7 @@ const service = axios.create({
   // baseURL:
   //   "http://192.168.8.236:7300/mock/5ff809bb0ded6600220c9789/LaneGeanPlat", // api 的 base_url
   // baseURL: s + "/api", // api 的 base_url
-  baseURL: "http://127.0.0.1:9000/api", // api 的 base_url
+  baseURL: "http://127.0.0.1:10000/api", // api 的 base_url
   timeout: 60000 // request timeout
 });
 // request interceptor

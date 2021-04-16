@@ -26,8 +26,8 @@ import { bytesToSize } from "@/assets/js/validate";
 // }
 // Vue.prototype.$baseUrl = s + "/avatar/";
 // Vue.prototype.$websocketattr = "ws://" + window.location.hostname + ":15674/ws";
-Vue.prototype.$websocketattr = "ws://192.168.8.243:8633/ws";
-Vue.prototype.$baseUrl = "http://192.168.8.243:9109/avatar/";
+Vue.prototype.$websocketattr = "ws://192.168.1.102:8633/ws";
+Vue.prototype.$baseUrl = "http://192.168.1.102:9109/avatar/";
 Vue.prototype.$bytesToSize = bytesToSize;
 Vue.use(mavonEditor);
 const originalPush = Router.prototype.push;

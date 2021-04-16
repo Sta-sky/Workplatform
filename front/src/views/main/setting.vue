@@ -662,7 +662,7 @@ export default {
     // 下载备份
     downloadBackup(val) {
       var url =
-        "http://192.168.8.243:10000/api/system/backup_down?id=" +
+        "http://192.168.1.102:10000/api/system/backup_down?id=" +
         val.id +
         "&token=" +
         this.$store.getters.token;

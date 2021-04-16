@@ -222,7 +222,7 @@ export default {
   },
   mounted() {
     this.uploadHeadImgUrl =
-      "http://192.168.8.243:8100/api/users/uploadHeadImg?token=" +
+      "http://192.168.1.102:8100/api/users/uploadHeadImg?token=" +
       this.$store.getters.token;
   },
   created() {
