@@ -8,7 +8,7 @@ def get_os_info():
     read = psutil.disk_io_counters().read_bytes // 1024 // 1024
     r_time = psutil.disk_io_counters().read_time // 1000
     write = psutil.disk_io_counters().write_bytes // 1024 // 1024
-    w_time = psutil.disk_io_counters().write_time // 1000
+    w_time = psutil.disk_io_counters().write_time / 1000
     virtual_memory = psutil.virtual_memory()
     used_memory = round(virtual_memory.used / 1024 / 1024 / 1024, 2)
     free_memory = round(virtual_memory.total / 1024 / 1024 / 1024, 2) - used_memory

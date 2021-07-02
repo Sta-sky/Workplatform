@@ -16,7 +16,7 @@ from rest_framework.views import APIView
 
 # from mind.tasks import CourseTask
 from adminq import tasks
-from adminq.tasks import backup
+from celery_tasks.tasks import back_celery
 # from rest_framework_jwt.authentication import jwt_decode_handler
 from .models import OperatingLog, BackupRecord, Host, TaskPort, TaskVulnerability, TaskCertificate, TaskProgress, \
     ServerPort
@@ -133,10 +133,9 @@ class BackupList(APIView):
         # 1. 根据数据创建文件夹
         user = request.myuser
         back = BackupRecord.objects.create(progress=2, status=0)
-        backup.delay(back.id)
+        back_celery.delay(back.id)
         OperatingLog.objects.create(content=f"新增{back.create_time.strftime('%Y-%m-%d %H:%M:%S')}的数据备份",
                                     operator_id=user.id)
-        # CourseTask.apply_async(args=(12,), queue='work_queue')
         return Response({"success": True, "info": ""})
 
     def get(self, request):

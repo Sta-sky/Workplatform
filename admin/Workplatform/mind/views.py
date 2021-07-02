@@ -23,9 +23,6 @@ class MindView(APIView):
 
     @class_login_check
     def get(self, request):
-        """
-
-        """
         task_id = request.query_params.get("task_id")
         search = request.query_params.get("search")
         page_size = request.query_params.get("page_size")
@@ -65,10 +62,10 @@ class MindView(APIView):
                     mind.delete()
                     """
                     action = models.IntegerField(verbose_name='执行动作', default=0)
-    create_time = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
-    mind_name = models.CharField(max_length=50, null=True)
-    user = models.ForeignKey(UserInfo, verbose_name='用户', on_delete=models.CASCADE)
-    task = models.ForeignKey(Task, on_delete=models.CASCADE, null=True)
+                    create_time = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
+                    mind_name = models.CharField(max_length=50, null=True)
+                    user = models.ForeignKey(UserInfo, verbose_name='用户', on_delete=models.CASCADE)
+                    task = models.ForeignKey(Task, on_delete=models.CASCADE, null=True)
                     """
                     MindLog.objects.create(action=3, mind_name=mind.title, user=user, task=mind.task)
                     return Response({"success": True, "info": ""})
@@ -102,6 +99,7 @@ class MindView(APIView):
                 MindOnlineUser.objects.create(mind=mind, user=user)
                 # todo 所有的在线人员广播同步
                 online_list.append({"username": user.name})
+            print(online_list)
             channel_layer = get_channel_layer()
             async_to_sync(channel_layer.group_send)(f"online_{mind_id}",
                                                     {"type": "chat2.message", "message": online_list})
