@@ -262,7 +262,6 @@ djcelery.setup_loader()
 
 CELERY_IMPORTS = (
     'mind.tasks',
-    'adminq.tasks'
 )
 # CELERY_DEFAULT_QUEUE = 'work_queue'
 

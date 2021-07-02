@@ -158,3 +158,22 @@ def save_imgage(save_path, img_obj):
         return True
     except Exception as e:
         return False
+
+
+import os
+import zipfile
+
+
+def win_zip_tool(dirname, zipfilename):
+	filelist = []
+	if os.path.isfile(dirname):
+		filelist.append(dirname)
+	else:
+		for root, dirs, files in os.walk(dirname):
+			for name in files:
+				filelist.append(os.path.join(root, name))
+	zf = zipfile.ZipFile(zipfilename, "w", zipfile.ZIP_STORED,allowZip64=True)
+	for tar in filelist:
+		arcname = tar[len(dirname):]
+		zf.write(tar, arcname)
+	zf.close()

@@ -15,7 +15,6 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 # from mind.tasks import CourseTask
-from adminq import tasks
 from celery_tasks.tasks import back_celery
 # from rest_framework_jwt.authentication import jwt_decode_handler
 from .models import OperatingLog, BackupRecord, Host, TaskPort, TaskVulnerability, TaskCertificate, TaskProgress, \

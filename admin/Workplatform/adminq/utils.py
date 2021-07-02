@@ -1,48 +1,50 @@
+import os
 import psutil
 
 
 def get_os_info():
-    # 循环磁盘分区
-    partition = psutil.disk_usage('/')
-    percentage = partition.percent
-    read = psutil.disk_io_counters().read_bytes // 1024 // 1024
-    r_time = psutil.disk_io_counters().read_time // 1000
-    write = psutil.disk_io_counters().write_bytes // 1024 // 1024
-    w_time = psutil.disk_io_counters().write_time / 1000
-    virtual_memory = psutil.virtual_memory()
-    used_memory = round(virtual_memory.used / 1024 / 1024 / 1024, 2)
-    free_memory = round(virtual_memory.total / 1024 / 1024 / 1024, 2) - used_memory
-    memory_percent = used_memory / round(virtual_memory.total / 1024 / 1024 / 1024, 2)
-    cpu_percent = psutil.cpu_percent(interval=0)
-
-    list1 = []
-    list2 = []
-    for i in psutil.process_iter(attrs=['pid']):
-        threads = psutil.Process(pid=i.pid).num_threads()
-        list1.append(i.pid)
-        list2.append(threads)
-    system_info = {
-        "cpu_usage": round(cpu_percent, 2),
-        "cpu_process": len(list1),
-        "cpu_thread": sum(list2),
-        "cpu_time": psutil.cpu_times().idle,  # idle空闲时间
-        "memory_used_memory": f'{round(used_memory, 2)}G',
-        "memory_free_memory": f'{round(free_memory, 2)}G',
-        "memory_usage": f'{round(memory_percent, 2) * 100:.2f}',
-        'disk_percentage': round(percentage, 2),
-        'disk_read_velocity': f'{(read / r_time):.2f}MB/s',
-        'disk_write_velocity': f'{(write / w_time):.2f}MB/s',
-    }
-    return system_info
+	# 循环磁盘分区
+	partition = psutil.disk_usage('/')
+	percentage = partition.percent
+	read = psutil.disk_io_counters().read_bytes // 1024 // 1024
+	r_time = psutil.disk_io_counters().read_time // 1000
+	write = psutil.disk_io_counters().write_bytes // 1024 // 1024
+	w_time = psutil.disk_io_counters().write_time / 1000
+	virtual_memory = psutil.virtual_memory()
+	used_memory = round(virtual_memory.used / 1024 / 1024 / 1024, 2)
+	free_memory = round(virtual_memory.total / 1024 / 1024 / 1024, 2) - used_memory
+	memory_percent = used_memory / round(virtual_memory.total / 1024 / 1024 / 1024, 2)
+	cpu_percent = psutil.cpu_percent(interval=0)
+	
+	list1 = []
+	list2 = []
+	for i in psutil.process_iter(attrs=['pid']):
+		threads = psutil.Process(pid=i.pid).num_threads()
+		list1.append(i.pid)
+		list2.append(threads)
+	system_info = {
+		"cpu_usage": round(cpu_percent, 2),
+		"cpu_process": len(list1),
+		"cpu_thread": sum(list2),
+		"cpu_time": psutil.cpu_times().idle,  # idle空闲时间
+		"memory_used_memory": f'{round(used_memory, 2)}G',
+		"memory_free_memory": f'{round(free_memory, 2)}G',
+		"memory_usage": f'{round(memory_percent, 2) * 100:.2f}',
+		'disk_percentage': round(percentage, 2),
+		'disk_read_velocity': f'{(read / r_time):.2f}MB/s',
+		'disk_write_velocity': f'{(write / w_time):.2f}MB/s',
+	}
+	return system_info
 
 
 def check_ip(ip):
-    if len(ip.split(':')) == 1:
-        port = None
-        return ip, port
-    else:
-        ip, port = ip.split(':')
-        return ip, port
+	if len(ip.split(':')) == 1:
+		port = None
+		return ip, port
+	else:
+		ip, port = ip.split(':')
+		return ip, port
+
 
 # server_port = {
 #     21: 'FTP', 22: 'SSH', 23: 'TELNET', 25: 'SMTP', 53: 'DNS', 67: 'BOOTPS', 68: 'BOOTPC', 69: 'TFTP',
@@ -57,3 +59,5 @@ def check_ip(ip):
 #                'QFT': 189, 'IPX': 213, 'IMAP3': 220, 'LDAP': 389, 'NNSP': 433, 'HTTPS': 443, 'SMTPS': 465, 'RCP': 469,
 #                'STMF': 501, 'IPCD': 576, 'IMAPS': 993, 'POP3S': 995, 'MSSQL': 1433, 'MYSQL': 3306, 'RDP': 3389,
 #                'BMAP': 3421,'REDIS':6379, 'IRDMI': 8000, 'WWW': 8080, 'NDMP': 10000}
+
+
