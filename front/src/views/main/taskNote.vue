@@ -1756,7 +1756,7 @@ export default {
       formdata.append('images', $file);
       uploadImg(formdata).then(res => {
         if (res.data.success) {
-          let json =  "http://192.168.1.102:8080" + res.data.img_addr; //取出上传成功后的url
+          let json =  "http://127.0.0.1:8080" + res.data.img_addr; //取出上传成功后的url
           if(this.addNoteVisible){
             this.$refs.md.$imglst2Url([[pos, json]])
           }else{
@@ -2002,7 +2002,7 @@ export default {
           }
           const a = document.createElement("a");
           a.href =
-            "http://192.168.1.102:10000/api/task/v1/download_note?note_id=" +
+            "http://127.0.0.1:10000/api/task/v1/download_note?note_id=" +
             this.curRowData.id
           + "&type=" + type
           + "&token=" + this.$store.getters.token;

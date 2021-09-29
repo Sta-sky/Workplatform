@@ -27,12 +27,12 @@
             title="检索"
             type="primary"
             size="medium"
-            style="height:42px;padding:8px 20px;margin-left:20px;background-image: linear-gradient(to right, #64db7d, #3fbf59);border-color:#64db7d;"
+            style="height:42px;padding:8px 20px;margin-left:5px;background-image: linear-gradient(to right, #64db7d, #3fbf59);border-color:#64db7d;"
             @click="allSearchVisible = true"
             round
           >
             全局检索
-            <i class="iconfont icon-jiansuo"></i>
+            <i class="iconfont icon-jiansuo" style="width: "></i>
           </el-button>
         </el-col>
         <el-col :span="5">
@@ -2797,7 +2797,7 @@ export default {
     downloadSinFile(row) {
       const a = document.createElement("a");
       a.href =
-        "http://192.168.1.102:10000/api/file/v1/download_file?file_id=" +
+        "http://127.0.0.1:10000/api/file/v1/download_file?file_id=" +
         row.file_id;
       // +
       // "&token=" +

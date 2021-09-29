@@ -691,7 +691,7 @@ export default {
     // 导入
     importFile() {
       var url =
-        "http://192.168.1.102:8100/api/system/backup_down?id=" +
+        "http://127.0.0.1:8100/api/system/backup_down?id=" +
         this.org_id +
         "&token=" +
         this.$store.getters.token;

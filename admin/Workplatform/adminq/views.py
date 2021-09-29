@@ -218,7 +218,6 @@ class BackupDown(APIView):
             response['Content-Type'] = 'application/octet-stream'
             response['Content-Disposition'] = 'attachment;filename="{0}"'.format(
                 escape_uri_path(file_name_path.split("/")[-1]))
-
             return response
         else:
             return Response(status=401, data={'info': '无权限!'})

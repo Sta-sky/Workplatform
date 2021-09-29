@@ -1,0 +1,11 @@
+1、将agent文件放在安装目录下的lib目录下：
+	D:\soft_ware\PyCharm_Community\lib
+
+2、打开pycharm，依次点击： 选项栏中的help-->Edit Custom VM Options，之后编辑文件
+		-javaagent: "agent文件所在的路径"
+	例：
+		-javaagent:D:\soft_ware\PyCharm_Community\lib\jetbrains-agent.jar
+	
+3、重启pycharm，完成
+	
+

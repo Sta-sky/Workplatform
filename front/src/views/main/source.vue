@@ -1442,7 +1442,7 @@ export default {
     downLoadSinWeapon(row) {
       const a = document.createElement("a");
       a.href =
-        "http://192.168.1.102:8100/api/resource/weapon/download/?id=" +
+        "http://127.0.0.1:8100/api/resource/weapon/download/?id=" +
         row.id +
         "&token=" +
         this.$store.getters.token;
